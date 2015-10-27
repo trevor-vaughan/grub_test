@@ -1,0 +1,8 @@
+---
+fixtures:
+  repositories:
+    stdlib:               "https://github.com/puppetlabs/puppetlabs-stdlib.git"
+    augeasproviders_grub: "https://github.com/hercules-team/augeasproviders_grub.git"
+    augesproviders_core:  "https://github.com/hercules-team/augeasproviders_core.git"
+  symlinks:
+    grub_test: "#{source_dir}"
